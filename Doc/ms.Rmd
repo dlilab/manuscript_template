@@ -45,10 +45,10 @@ options(digits = 3, width = 88,
         knitr.kable.NA = '')
 
 # download template files if not available
-tpl_1 = 'https://raw.githubusercontent.com/daijiang/workflow_demo/master/Doc/template/preamble.tex'
-tpl_2 = 'https://raw.githubusercontent.com/daijiang/workflow_demo/master/Doc/template/doc_prefix.tex'
-tpl_3 = 'https://raw.githubusercontent.com/daijiang/workflow_demo/master/Doc/template/nature_style.docx'
-# bib_1 = 'https://raw.githubusercontent.com/daijiang/workflow_demo/master/template/ref.bib'
+tpl_1 = 'https://raw.githubusercontent.com/dlilab/manuscript_template/master/Doc/template/preamble.tex'
+tpl_2 = 'https://raw.githubusercontent.com/dlilab/manuscript_template/master/Doc/template/doc_prefix.tex'
+tpl_3 = 'https://raw.githubusercontent.com/dlilab/manuscript_template/master/Doc/template/nature_style.docx'
+# bib_1 = 'https://raw.githubusercontent.com/dlilab/manuscript_template/master/template/ref.bib'
 # change directory accordingly
 if(!file.exists(tpl_1f <- 'template/preamble.tex')) download.file(tpl_1, tpl_1f)
 if(!file.exists(tpl_2f <- 'template/doc_prefix.tex')) download.file(tpl_2, tpl_2f)
