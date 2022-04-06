@@ -31,8 +31,8 @@ options(digits = 3, width = 88,
         knitr.kable.NA = '')
 
 # download template files if not available
-tpl_1 = 'https://raw.githubusercontent.com/daijiang/workflow_demo/master/Doc/template/respond_to_reviewer.tex'
-tpl_2 = 'https://raw.githubusercontent.com/daijiang/workflow_demo/master/Doc/template/respond_to_reviewer.css'
+tpl_1 = 'https://raw.githubusercontent.com/dlilab/manuscript_template/master/Doc/template/respond_to_reviewer.tex'
+tpl_2 = 'https://raw.githubusercontent.com/dlilab/manuscript_template/master/Doc/template/respond_to_reviewer.css'
 # change directory accordingly
 if(!file.exists(tpl_1f <- 'template/respond_to_reviewer.tex')) download.file(tpl_1, tpl_1f)
 if(!file.exists(tpl_2f <- 'template/respond_to_reviewer.css')) download.file(tpl_2, tpl_2f)
